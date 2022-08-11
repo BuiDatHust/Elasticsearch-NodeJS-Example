@@ -1,0 +1,30 @@
+{
+    "elasticsearch": {
+        "url":"http://localhost:",
+        "port":"9200",
+        "elasticsearchIndices": {
+            "PRODUCT": {
+              "index":"product",
+              "type":"PRODUCT",
+              "collectionName":"country"
+            }
+        }
+    },
+    "localmongodb": {
+      "url": "mongodb://",
+      "username":"",
+      "password":"",
+      "server_ip":"137.71.42.119",
+      "local_server_ip":"localhost",
+      "port":"27017",
+      "databaseName":"mongodbTutorial"
+    },
+    "mongodb": {
+      "url": "mongodb+srv://",
+      "username": "atique",
+      "password": "atique",
+      "serverUrl": "cluster0-ak0lq.mongodb.net",
+      "port": "27017",
+      "databaseName":"ElasticsearchWithMongoDb"
+    }
+}
